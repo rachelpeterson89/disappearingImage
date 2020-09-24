@@ -1,1 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
+body {
+    background-color: black;
+}
+
+img {
+    height: 300px;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+p {
+    color: white;
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+#wrapper {
+    background-color: black;
+    min-height: 600px;
+    max-width: 1000px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
