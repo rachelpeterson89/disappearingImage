@@ -1,10 +1,11 @@
 $(document).ready(function () {
 
     $('img').click(function () {
-        $(this).fadeOut();
+        $(this).css('visibility', 'hidden');
     });
 
-    $("p").click(function () { 
-        location.reload(true);  
+    $("p").click(function () {
+        location.reload(true);
     });
+    
 });
